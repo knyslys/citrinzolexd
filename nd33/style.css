@@ -1,0 +1,118 @@
+body {
+  background-color: #37673b;
+}
+
+.sos {
+  position: absolute;
+  bottom: auto;
+  right: 15;
+}
+
+.rodykle {
+  /* margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 500px; */
+  align-self: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.krepselis {
+}
+
+.top-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.virsus {
+  max-width: 60%;
+  background-color: rgb(56, 103, 59);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  min-width: 5%;
+}
+
+img {
+  max-width: 80%;
+}
+
+.skustukas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3e7342;
+  padding: 0.5rem;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3e7342;
+  border-color: #3e7342;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.p1 {
+  font-family: "MedievalSharp", cursive;
+  font-size: 130%;
+}
+
+h2 {
+  font-family: "MedievalSharp", cursive;
+  font-size: 160%;
+}
+
+h1 {
+  font-family: "MedievalSharp", cursive;
+}
+
+span {
+  font-family: "MedievalSharp", cursive;
+  font-size: 130%;
+}
+
+button {
+  font-family: "MedievalSharp", cursive;
+  color: white;
+  padding: -15px;
+}
+
+.hr1 {
+  width: 40%;
+}
+
+hr {
+  width: 15%;
+}
+
+.sampunas:hover {
+  transform: scale(1.5, 1.5);
+  transition-duration: 3s;
+  margin-bottom: 10px;
+}
+
+.my-item:hover {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+@keyframes {
+}
